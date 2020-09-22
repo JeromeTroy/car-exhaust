@@ -27,13 +27,13 @@ $$
 
 The inbound boundary term is
 $$
-\left. u(x, t) \right|_{x \in \Gamma_{in}} = f(t)
+u(x \in \Gamma_{in}, t) = f(t)
 $$
 
 The outbound boundary condition is the one way wave equation
 $$
-\left(\frac{\partial u}{\partial t} + \frac{\partial u}{\partial n} 
-\right)_{x \in \Gamma_{out}}= 0
+\frac{\partial u}{\partial t} + \frac{\partial u}{\partial n} = 0, 
+\quad x \in \Gamma_{out}
 $$
 Where $n$ is the unit outward normal.
 
@@ -71,3 +71,4 @@ The data files are saved in the XDMF format.  This has an hdf5 file
 as the data set and an XDMF file as the overview.  It is easiest 
 to view the solution using Paraview.  Installation instructions 
 can be found here: https://www.paraview.org/.
+
