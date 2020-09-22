@@ -1,0 +1,4 @@
+mesh resolution, 50
+No. fins, 10
+Fin spacing, 0.62
+dx, 0.015390986078856516
